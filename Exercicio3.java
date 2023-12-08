@@ -8,8 +8,8 @@ public class Exercicio3 {
 		 Scanner scanner = new Scanner(System.in);
 	        
 	        int idade;
-	        int maiorDe21 = 0;
-	        int menorDe50 = 0;
+	        int menorDe21 = 0;
+	        int maiorDe50 = 0;
 
 	        System.out.println("Digite a idade ou (para encerrar, digite uma idade negativa):");
 
@@ -22,13 +22,13 @@ public class Exercicio3 {
 	            }
 
 	            if (idade < 21) {
-	            	menorDe50++;
+	            	menorDe21++;
 	            } else if (idade > 50) {
-	            	maiorDe21++;
+	            	maiorDe50++;
 	            }
 	            
-	            System.out.println("Pessoas com menos de 21 anos: " + menorDe50);
-	            System.out.println("Pessoas com mais de 50 anos: " + maiorDe21);
+	            System.out.println("Pessoas com menos de 21 anos: " + menorDe21);
+	            System.out.println("Pessoas com mais de 50 anos: " + maiorDe50);
 	        }
 
 	}
